@@ -1,0 +1,55 @@
+:root {
+    --darkpurple: #3B0944;
+    --purple: #5F1854;
+    --offwhite: #F7F7F7;
+    --brightgreen: #1ABB9C;
+    --fontheader: 'Merriweather', serif;
+    --fontparagraph: 'Lato', sans-serif;
+}
+
+/*Fonts*/
+
+h1 {
+    color: var(--offwhite);
+    font-family: var(--fontheader);
+    font-weight: 900;
+    text-align: center;
+    padding: 35px 0;
+    margin: 0 auto;
+}
+
+h2, h3 {
+    color: var(--darkpurple);
+    font-family: var(--fontheader);
+    font-weight: bold;
+}
+
+p {
+    font-family: var(--fontparagraph);
+}
+
+/*Global layout*/
+
+html {
+    height: 100%;
+    background-color: var(--offwhite);
+}
+
+header {
+    background-color: var(--darkpurple);
+    width: 100%;
+    height: 125px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+section {
+    margin: 40px;
+}
